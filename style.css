@@ -460,6 +460,10 @@ letter-spacing: 2px;
                     padding: 12rem 6rem 0 6rem;
         
                 }
+                .welcome3 {
+                    padding: 12rem 6rem 0 6rem;
+        
+                }
                 .red-container {
                     padding: 0 6rem;
                 }
@@ -518,6 +522,10 @@ letter-spacing: 2px;
              padding: 12rem 1rem 0 1rem;
     
          }
+         .welcome3 {
+             padding: 12rem 1rem 0 1rem;
+    
+         }
 
                  .red-container {
                      padding: 0 1rem;
@@ -551,6 +559,11 @@ letter-spacing: 2px;
         .welcome2{
             padding-top: 3rem;
         }
+        
+        .welcome3{
+            padding-top: 3rem;
+        }
+        
 
         .redifined {
             display: block;
@@ -570,7 +583,7 @@ letter-spacing: 2px;
         
                 .Testimonials {
                     margin-left: 3rem;
-                    width: 100%;
+                    /* width: 100%; */
                 }
                                 .Testimonials2 {
                                     width: 60%;
@@ -601,6 +614,7 @@ letter-spacing: 2px;
                 .Testimonials p:nth-child(3){
                     margin-left: 5rem;
                 }
+               
                 .direction-cont{
                     margin-left: 7rem;
                 }
