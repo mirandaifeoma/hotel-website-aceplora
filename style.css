@@ -1,0 +1,614 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+.nav{
+    width: 100%;
+    padding: 0 6rem 2rem 6rem;
+    background-color: transparent;
+   position: fixed;
+   top: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    width: 10%;
+}
+.logo{
+    width: 100%;
+    object-fit: cover;
+}
+.nav-list{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:active{
+    text-decoration: underline;
+        color: white;
+}
+.nav-list li:nth-last-child(1){
+    text-decoration: underline;
+    color: white;
+}
+.body-container{
+    width: 100%;
+}
+.contact{
+    background-color: rgb(5, 5, 106);
+    width: 100%;
+    padding: 3.5rem 0 1rem 0;
+}
+.contact div{
+    width: fit-content;
+    margin: auto;
+}
+.contact h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 5vmin;
+}
+.body{
+    padding: 4rem 6rem;
+}
+.body div h1{
+    text-transform: uppercase;
+    font-size: 5.5vmin;
+    color: rgb(6, 6, 83);
+    margin-bottom: .3rem;
+}
+
+.evagreen-container{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.evagreen{
+    width: 50%;
+}
+.arrow{
+    display: flex;
+    margin: 1rem 0 2rem 0;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(6, 6, 83);
+}
+.direction{
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.form{
+    width: 50%;
+}
+
+.form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+.form textarea{
+    width: 100%;
+    border: 1px solid black;
+}
+.form button{
+    float: right;
+    padding: 8px;
+    background-color: rgb(228, 186, 134);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-container{
+    background-color: rgb(5, 5, 106);
+    padding: 1rem 0;
+    position: relative;
+    margin-top: 3rem;
+}
+.pent{
+    background-color: transparent;
+    color:rgb(5, 5, 106);
+    position: absolute;
+    font-size: 15vmin;
+    top: -35px;
+    left: 45%;
+    z-index: -100;
+}
+.footer{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 2vmin;
+}
+.luxury h1{
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.luxury p{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 1.5vmin;
+    margin-bottom: .5rem;
+    
+}
+.about-footer{
+    line-height: 28px;
+}
+
+.social{
+    display: flex;
+    margin-bottom:17px;
+}
+.social p{
+    margin-left: 15px;
+}
+.ok-container{
+    display: flex;
+    margin-top: 1.4rem;
+}
+.ok-input{
+    border: 1px solid rgb(228, 186, 134);
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+}
+ .ok{
+    padding: 7px 10px;
+    border: none;
+    background-color: rgb(228, 186, 134);
+ }
+
+ .home-container{
+    width: 100%;
+ }
+
+ .welcome{
+    width: 100%;
+   height: fit-content;
+    background-image: url(/assets/Mask\ Group.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    background-color: rgba(7, 27, 42, 0.493);
+    padding: 12rem 14rem 0 14rem;
+    color: white;
+ }
+ .welcome-2 h1{
+    text-transform: uppercase;
+    font-size: 2.7vmin;
+    line-height: 2.4rem;
+ }
+.lux-span{
+    font-size: 9vmin;
+}
+.hot-span{
+    letter-spacing: 10px;
+    font-size: 3vmin;
+}
+
+.book{
+    width: fit-content;
+    margin: 8rem auto 3rem auto;
+    padding: 10px;
+
+}
+.book-now{
+    display: flex;
+    color: white;
+    background-color: rgb(228, 186, 134);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.book-now h3{
+    margin-left: 10px;
+}
+.scroll{
+    font-size: 3vmin;
+    width: fit-content;
+    margin: 2rem auto;
+}
+.arroww{
+    margin-left: 10px;
+    font-size: 5vmin;
+}
+.red-container{
+    padding: 0 14rem;
+}
+.all{
+    margin: 0px 0px 1.5rem 10rem;
+}
+.redifined{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.line-but{
+    border: none;
+    background-color: darkgray;
+    padding: 0 1px;
+    margin:2.5rem 1rem 0 0;
+    height: 10rem;
+}
+.line-but-2{
+    border: none;
+    background-color: darkgray;
+    padding: 0 1px;
+    margin:.5rem 1rem 0 0;
+    height: 13rem;
+}
+.lux-red{
+    width: 40%;
+    margin-top: 2rem;
+}
+.lux-red-2{
+    width: 40%;
+}
+.lux-red h1{
+    color: rgb(7, 10, 59);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.lux-red-2 h1{
+    color: rgb(7, 10, 59);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.lux-img{
+    width: 55%;
+    margin-left: 3rem;
+}
+.ex-but{
+    background-color: rgb(228, 186, 134);
+    border: none;
+    padding: 7px 22px;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.Testimonials{
+    width: 60%;
+    margin: 3rem 0 3rem 17rem;
+}
+.Testimonials h1{
+    margin:0 0 1rem 6rem;
+}
+.Testimonials p:nth-child(3){
+    margin: .5rem 0 1rem 6rem;
+}
+.direction-cont{
+    display: flex;
+    margin-left: 8rem;
+}
+.cont{
+    background-color: rgb(228, 186, 134);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+}
+ .welcome2 {
+     width: 100%;
+     height: fit-content;
+     background-image: url(/assets/Mask\ Group\ \(2\).png);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: darken;
+     background-color: rgba(7, 27, 42, 0.493);
+     padding: 12rem 14rem 0 14rem;
+     color: white;
+ }
+.rooms-cont{
+    text-align: center;
+    padding: 0 14rem;
+}
+.card{
+    margin-bottom: 2rem;
+}
+.board{
+    border: 1px solid rgba(0, 0, 0, 0.495);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.rooms-cont h1:nth-child(1){
+    font-size: 5vmin;
+    color: rgb(3, 3, 99);
+}
+.rooms-cont p:nth-child(2){
+    margin: 1rem 0 2rem 0;
+}
+.sin-room{
+    background-color: rgb(4, 4, 85);
+    color: white;
+    margin-top: -5px;
+    padding: 5px 0;
+    font-size: 3vmin;
+}
+.sin-roomm{
+    background-color: rgb(4, 4, 85);
+    color: white;
+    margin-top: -20px;
+    padding: 5px 0;
+    font-size: 3vmin;
+}
+.scroll2{
+    display: flex;
+    align-items: center;
+    height: 10px;
+    margin-top: 1.5rem;
+}
+.arrowww{
+    color: rgb(228, 186, 134);
+    margin:0 8px 10px 0;
+}
+.book-now2 {
+    color: white;
+    background-color: rgb(228, 186, 134);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 3vmin;
+}
+
+.Testimonials2 {
+    width: 60%;
+    margin: 3rem 0 3rem 10rem;
+    text-align: center;
+}
+.Testimonials2 h1:nth-child(1){
+    font-size: 5vmin;
+    color: rgb(3, 3, 99);
+}
+.direction-cont2 {
+    display: flex;
+    margin:1rem 0 0 21rem;
+}
+.welcome2 {
+    width: 100%;
+    height: fit-content;
+    background-image: url(/assets/Mask\ Group\ \(1\).png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(7, 27, 42, 0.493);
+    padding: 12rem 14rem 0 14rem;
+    color: white;
+}
+.card2 {
+    margin-bottom: 2rem;
+    position: relative;
+}
+.sin-room2{
+    width: fit-content;
+    margin: auto;
+    color: rgb(3, 3, 51);
+    position:absolute;
+    background-color: white;
+    padding: 5px 10px;
+    bottom: .2rem;
+    left: 35%;
+}
+.down{
+    margin-bottom: 15rem;
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .nav {
+            padding: 0 14rem 2rem 14rem;
+           
+        }
+                .body {
+                    padding: 4rem 14rem;
+                }
+}
+@media (max-width:1018px){
+.footer {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+        
+        .pent {
+            font-size: 15vmin;
+            top: -33px;
+            left: 45%;
+        }
+        .news{
+            margin-top: 2rem;
+        }
+                .welcome {
+                    padding: 12rem 6rem 0 6rem;
+        
+                }
+                .welcome2 {
+                    padding: 12rem 6rem 0 6rem;
+        
+                }
+                .red-container {
+                    padding: 0 6rem;
+                }
+                .Testimonials{
+                    margin-left: 6rem;
+                    width: 80%;
+                }
+                .rooms-cont{
+                    padding: 0 6rem;
+                }
+                .direction-cont2 {
+                    margin: 1rem 0 0 15rem;
+                }
+}
+
+@media (max-width:730px) {
+    .nav {
+            padding: 0 1rem 2rem 1rem;
+        }
+
+        .nav-list {
+            margin-top: .5rem;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-list li a {
+            font-size: 3vmin;
+        }
+
+                .body {
+                    padding: 4rem 1rem;
+                }
+
+                .evagreen-container {
+                    display: block;
+                    margin-top: 4rem;
+                }
+                .evagreen {
+                    width: 100%;
+                }
+
+        .form {
+            width: 100%;
+            margin: 2rem 0 3rem 0;
+        }
+                .pent {
+                    top: -26px;
+                }
+         .welcome {
+             padding: 12rem 1rem 0 1rem;
+    
+         }
+         .welcome2 {
+             padding: 12rem 1rem 0 1rem;
+    
+         }
+
+                 .red-container {
+                     padding: 0 1rem;
+                 }
+                .all {
+                    margin: 0px 0px 1.5rem 4rem;
+                }
+                
+                .rooms-cont {
+                    padding: 0 1rem;
+                }
+                .direction-cont2 {
+                    margin: 1rem 0 0 10rem;
+                }
+}
+
+
+@media (max-width:570px) {
+     .pent {
+            top: -20px;
+        }
+        .about-footer {
+            line-height: 25px;
+        }
+        .social {
+            margin-bottom: 15px;
+        }
+        .welcome{
+            padding-top: 6rem;
+        }
+        .welcome2{
+            padding-top: 3rem;
+        }
+
+        .redifined {
+            display: block;
+            margin-bottom: 2rem;
+        }
+        .line-but, .line-but-2{
+            display: none;
+        }
+        .lux-red, .lux-red-2{
+            width: 100%;
+        }
+        .lux-img{
+            width: 100%;
+            margin-left: 0px;
+            margin-top: 2rem;
+        }
+        
+                .Testimonials {
+                    margin-left: 3rem;
+                    width: 100%;
+                }
+                                .Testimonials2 {
+                                    width: 60%;
+                                    margin: 3rem 0 3rem 5rem;
+                                    text-align: center;
+                                }
+                .direction-cont2 {
+                    margin: 1rem 0 0 7rem;
+                }
+}
+
+@media (max-width:470px){
+    .all {
+            margin: 0px 0px 1.5rem 1rem;
+            font-size: 3.5vmin;
+        }
+                .Testimonials {
+                    margin-left: 1rem;
+                    width: 100%;
+                }
+                .Testimonials h1{
+                    font-size: 5vmin;
+                    margin-left: 5rem;
+                }
+                .Testimonials p{
+                    font-size: 3vmin;
+                }
+                .Testimonials p:nth-child(3){
+                    margin-left: 5rem;
+                }
+                .direction-cont{
+                    margin-left: 7rem;
+                }
+                .direction-cont2{
+                    margin-left:6rem;
+                }
+                .cont{
+                    padding: 4px;
+                    font-size: 2vmin;
+                }
+}
